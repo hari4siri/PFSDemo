@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Demo PFS Test Suite">
+
+	<listeners>
+		<listener class-name="ExtentReport.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="PFS Test Cases">
+		<classes>
+			<class name="testCases.LoginTestCase"></class>
+		</classes>
+	</test>
+</suite>

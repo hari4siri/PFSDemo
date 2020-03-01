@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Demo PFS Test Suite]">
+  <listeners>
+    <listener class-name="ExtentReport.ExtentReporterNG"/>
+  </listeners>
+  <test name="PFS Test Cases(failed)">
+    <classes>
+      <class name="testCases.LoginTestCase">
+        <methods>
+          <include name="launchUrl"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.LoginTestCase -->
+    </classes>
+  </test> <!-- PFS Test Cases(failed) -->
+</suite> <!-- Failed suite [Demo PFS Test Suite] -->
